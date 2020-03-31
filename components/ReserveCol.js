@@ -18,7 +18,7 @@ export default (props) => {
                     </h3>
                     {timeRange.slice(0, -1).map((range, i) => {
                         let reservation = props.reservation.find(r => {
-                            return moment(r.startDateTime).valueOf() === range.valueOf() && r.washerType === 'Washer'
+                            return moment(r.startDateTime + "+02:00").valueOf() === range.valueOf() && r.washerType === 'Washer'
                         });
                         return <ReserveCard key={i} date={props.day} startTime={range}
                             type={"Washer"}
