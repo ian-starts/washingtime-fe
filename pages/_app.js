@@ -6,7 +6,7 @@ import "firebase/auth";
 
 const config = {
     apiKey: "AIzaSyBbwPG75SxAlHVLlgvgiXdRf0abs0EGpvU",
-    authDomain: "wannawash.nl",
+    authDomain: "washingtime-d095c.firebaseapp.com",
     databaseURL: "https://washingtime-d095c.firebaseio.com",
     projectId: "washingtime-d095c",
     storageBucket: "washingtime-d095c.appspot.com",
