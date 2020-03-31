@@ -17,6 +17,9 @@ const Home = (props) => {
             <Layout locale={props.locale} title="#WannaWash?">
                 <main className="flex flex-1 justify-center flex-col my-10">
                     <h1 className={"heading"}>
+                        {`Hi ${authService.getProfile(authService.getToken()).name}!`}
+                    </h1>
+                    <h1 className={"heading"}>
                         Reserve here 👚
                     </h1>
                     <div className={"reserve-row__block"}>
@@ -43,7 +46,12 @@ const Home = (props) => {
                     @apply flex flex-1 justify-center self-center flex-wrap;
                 }
                 .heading{
-                    @apply text-5xl text-gray-800 text-center
+                    @apply text-2xl text-gray-600 text-center
+                }
+                @screen sm {
+                    .heading{
+                        @apply text-5xl;
+                    }
                 }
              `}</style>
         </div>

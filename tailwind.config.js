@@ -11,10 +11,12 @@ module.exports = {
             backgroundColor: theme => ({
                 'primary': '#ecfcff',
                 'secondary': '#edb5f5',
+                'tertiary': '#e86ed0'
             }),
             textColor: theme => ({
                 'primary': '#f3f3f3',
-                'secondary': '#ff896b',
+                'secondary': '#edb5f5',
+                'tertiary': '#e86ed0'
             }),
             minWidth: {
                 '0': '0',
