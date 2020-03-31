@@ -56,11 +56,11 @@ export default (props) => {
                     @apply flex flex-col px-2 py-3 bg-white rounded-lg mt-10 mx-2
                 }
                 .reserve-col__header{
-                  @apply text-center text-xl p-3 text-gray-800 text-tertiary;
+                  @apply text-center text-xl p-3 text-gray-800 text-tertiary font-sans;
                   color: #e86ed0;
                 }
                 .washer-type__header{
-                  @apply text-center text-lg py-1 text-tertiary
+                  @apply text-center text-lg py-1 text-tertiary font-sans;
                 }
                 @screen sm {
                     .reserve-col{

@@ -46,7 +46,7 @@ const Home = (props) => {
                     @apply flex flex-1 justify-center self-center flex-wrap;
                 }
                 .heading{
-                    @apply text-2xl text-gray-600 text-center
+                    @apply text-2xl text-gray-600 text-center font-sans;
                 }
                 @screen sm {
                     .heading{

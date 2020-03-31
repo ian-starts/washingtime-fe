@@ -31,7 +31,7 @@ export default (props) => {
             </form>
             <style jsx>{`
                 .signin__header {
-                    @apply text-5xl text-gray-600 underline mb-10;
+                    @apply text-5xl text-gray-600 underline mb-10 font-sans;
                 }
                 .signin--container{
                     @apply flex flex-1 items-center mt-20 flex-col font-bold;
@@ -41,7 +41,7 @@ export default (props) => {
                     background-color: #e86ed0;
                 }
                 .button__text {
-                    @apply text-lg text-white;
+                    @apply text-lg text-white font-sans;
                 }
              `}</style>
         </div>)

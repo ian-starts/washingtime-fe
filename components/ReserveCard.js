@@ -23,7 +23,7 @@ export default (props) => {
             </label>
             <style jsx>{`
                 .reserve-card {
-                    @apply text-xs text-gray-600 flex flex-row px-2 py-3 border-gray-600 border rounded self-center items-center my-2;
+                    @apply text-xs text-gray-600 flex flex-row px-2 py-3 border-gray-600 border rounded self-center items-center my-2 font-sans;
                     transition: all .3s ease,-webkit-all .3s ease
                 }
                 .reserve-card__checkbox__hidden {
@@ -41,7 +41,7 @@ export default (props) => {
                   transition: all .3s ease,-webkit-all .3s ease
                 }
                 .reserve-card_disabled {
-                   @apply text-xs text-gray-400 flex flex-row px-2 py-3 border-gray-400 border rounded self-center items-center my-2;
+                   @apply text-xs text-gray-400 flex flex-row px-2 py-3 border-gray-400 border rounded self-center items-center my-2 font-sans;
                 }
                 .reserve-card:hover{
                   @apply border-gray-900 cursor-pointer;
